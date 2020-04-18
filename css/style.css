@@ -1,14 +1,23 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
 * {
 margin: 0;
 padding: 0;
 } 
 
 .my-navbar {
-	background-color: #FF00FF;
+	font-family: 'Rubik', sans-serif;
+	font-size: 135%;
 }
 
+.carousel {
+	margin-left: 9cm;
+	margin-right: 9cm;
+	margin-top: 2cm;
+}
 .colorfulbox {
 	background-color: #050505;
 	border-top-width: 0%;
@@ -16,19 +25,54 @@ padding: 0;
     padding: 0.5cm;
 }
 
+.pinkbox {
+	background-color: #FF00FF;
+	text-align: center;
+	margin-left: 12cm;
+	margin-right: 12cm;
+	margin-top: 2cm;
+	margin-bottom: 2cm;
+}
+
 h1{
-	font-family: 'Rubik', sans-serif;
-    font-size: 200%;
+	font-family: 'Bowlby One SC', cursive;
+    font-size: 355%;
+	text-align: center;
+	margin-top: 2cm;
 }
+
 h2{
-	font-family: 'Rubik', sans-serif;
-    font-size: 200%;
+	font-family: 'Bowlby One SC', cursive;
+    font-size: 230%;
 }
+
 h3{
-	font-family: 'Rubik', sans-serif;
-    font-size: 200%;
+	font-family: 'Bowlby One SC', cursive; 
+    font-size: 230%;
 }
+
 h4{
-	font-family: 'Rubik', sans-serif;
-    font-size: 200%;
+	font-family: 'Bowlby One SC', cursive;
+    font-size: 230%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bodystyle {
+	font-family: 'Oswald', sans-serif;
+	font-size: 200%;
+}
+
+.quotes {
+	font-family: 'Caveat', cursive;
+	font-size: 210%;
+	text-align: center;
+	margin-left: 9cm;
+	margin-right: 9cm;
+	margin-top: 1cm;
+	margin-bottom: 1cm;
 }
