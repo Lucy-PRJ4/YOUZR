@@ -3,18 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 * {
 margin: 0;
 padding: 0;
 } 
-.centerdivcontact {
-    margin-left: auto;
-    margin-right: auto;
-}
-.alltextblack {
-    color: #000000;
-}
+
 .my-navbar {
 	font-family: 'Rubik', sans-serif;
 	font-size: 135%;
@@ -62,8 +55,8 @@ h3{
 }
 
 h4{
-    font-family: 'Bowlby One SC', cursive;
-    font-size: 200%;
+	font-family: 'Bowlby One SC', cursive;
+    font-size: 230%;
 }
 
 .center {
@@ -86,34 +79,16 @@ h4{
 	margit-top: 1cm;
 	margin-bottom: 1cm;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+.experience {
+	text-align: center;
+	margin: -1px;
+}	
+.centerdivcontact {
+    margin-left: auto;
+    margin-right: auto;
 }
-
-body {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
-    font-weight: 100;
-    font-size: 12px;
-    line-height: 30px;
-    color: #777;
-    background-color: #FFFFFF;
-}
-
-.container {
-  max-width: 400px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
+.alltextblack {
+    color: #000000;
 }
 
 #contact input[type="text"],
